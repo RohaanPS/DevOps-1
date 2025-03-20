@@ -1,0 +1,6 @@
+docker ps
+docker run -itd -P <img_id>
+docker images
+docker ls
+docker cp <s.f> <c.i>:<path>
+docker exec -it containerid bin/bash
