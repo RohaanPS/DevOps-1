@@ -1,0 +1,34 @@
+Kubernetes
+  Kubernetes was donated to the cloud native computing foundation,a neutral home for open source cloud native project in 2015.
+Google started developing a system called to manage their internal containerized applications.
+Borg enabled google to run application at scale , providing automatic scalling features.
+
+Kubernetes, often shortened to K8s, 
+is an open-source container orchestration platform that automates the deployment scaling, and management of containerized applications.
+
+Key Features:
+ Container Orchestration
+ Automation
+ Scalability
+ Open Source 
+
+Benefits of Using Kubernetes
+ Simplified Deployment and Management
+ Increased Agility
+ Improved Reliability
+
+ Master node 
+ This node is responsible for managing cluster
+Control manager 
+ this controller manager runs various controllers that monitor the cluster state and drive it towards the derived state.
+ API - cluster connectivity
+Scheduler - is assigning work flow
+etcd: etcd is distributed key-value store used by kubernetes to store cluster state and configuration data.
+
+pods : are basic units of Kubernetes.
+
+replica sset: it ensures a specified number of pod replicas are running at all times.
+
+Deployment: A higher-level abstraction that manages and update a set of replica pods.
+
+Service: A service provides a stable network endpoint for accessing a group of pods. 
